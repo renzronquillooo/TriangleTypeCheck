@@ -18,6 +18,9 @@ public class TriangleTypeCheck {
 		System.out.print("Please enter the length of third side: ");
 		int sidec = scanner.nextInt();
 		
+		System.out.print("Please enter the length of third side: ");
+		int sided = scanner.nextInt();
+		
 		//Verify if it is a triangle or not by calling method IsTriangle then if yes (true), verify the type of triangle, else the sides ae not forming a triangle
 		if (isTriangle(sidea, sideb, sidec)) {
 			if (sidea == sideb && sideb == sidec && sidea == sidec) {
