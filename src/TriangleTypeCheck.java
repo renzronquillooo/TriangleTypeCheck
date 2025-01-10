@@ -18,10 +18,10 @@ public class TriangleTypeCheck {
 		System.out.print("Please enter the length of third side: ");
 		int sidec = scanner.nextInt();
 		
-		System.out.print("Please enter the length of third side: ");
+		System.out.print("Please enter the length of fourth side: ");
 		int sided = scanner.nextInt();
 			
-		System.out.print("Please enter the length of third side: ");
+		System.out.print("Please enter the length of fifth side: ");
 		int sidef = scanner.nextInt();
 		
 		System.out.print("Please enter the length of third side: ");
