@@ -19,7 +19,7 @@ public class TriangleTypeCheck {
 		int sidec = scanner.nextInt();
 		
 		//Verify if it is a triangle or not by calling method IsTriangle then if yes (true), verify the type of triangle, else the sides ae not forming a triangle
-		if (isTriangle(sidea, sideb, sidec)) {
+		if (isTriangle(sidea, sideb, sidec) == true) {
 			if (sidea == sideb && sideb == sidec && sidea == sidec) {
 				System.out.println("The triangle is Equilateral.");
 			} else if ((sidea == sideb && sidea != sidec) || (sidea == sidec && sidea != sideb) || (sideb == sidec && sidea != sideb)){
